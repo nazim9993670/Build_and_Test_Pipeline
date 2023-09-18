@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-
-        maven 'maven_home',
+        // Reference the configured tool installations by their names
+        maven 'maven_home'
         jdk 'java_home'
     }
     stages {
